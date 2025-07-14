@@ -15,7 +15,7 @@ body {
 
 /* ..........common style........ */
 
-.containar {
+.container {
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
@@ -32,6 +32,7 @@ body {
     --sub-heading: 1.125rem;
 }
 
+
 .btn {
     padding: 7px 15px;
     border-radius: 10px;
@@ -40,6 +41,7 @@ body {
 .outline-btn {
     border: 1px solid var(--Blue1-color);
     color: var(--para-color);
+    padding: 10px 20px;
 
 }
 
@@ -66,13 +68,25 @@ h5 {
     color: var(--title-color);
 
 }
+.round{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.sub-heading {
+    font-size: 1.125rpm;
+    color: var(--Blue2-color);
+    font-weight: 600;
+}
 
 header {
     background-color: var(--back-color);
     height: 80px;
 }
 
-header .containar {
+header .container {
     padding-top: 0px;
     display: flex;
     justify-content: space-between;
@@ -82,7 +96,7 @@ header .containar {
 .menu ul {
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 40px;
 }
 
 .menu ul li {
@@ -94,19 +108,68 @@ header .containar {
 
 }
 
-
 .sinin .nooutline {
     border: none;
     background: transparent;
 
 }
 
-.sinin .nooutline:hover {
+.sinin .nooutline:hover ,.btn-group .btn:hover{
     color: var(--Blue2-color);
+    border: none;
 }
 
 .sinin .outline-btn:hover {
     color: white;
     background-color: var(--Blue1-color);
 
+}
+
+/* ...............banner.......... */
+
+.banner {
+    background-color: var(--back-color);
+}
+
+.banner .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+
+}
+.btn-group .btn{
+    padding: 15px 20px;
+}
+.btn-group .normal-btn:hover{
+   background-color: transparent;
+    color: black;
+
+   
+}
+
+.avater {
+    padding: 10px;
+    display: flex;
+
+align-items: center;
+}
+.avater .round{
+    margin-left: -15px;
+}
+.banner .contein>* {
+    margin-top: 30px;
+}
+ .container .contein {
+    width: 60%;
+}
+ .container .contein ,p, h1{
+    width: 60%;
+   
+}
+.banner .img  img {
+    width: 40%;
+}
+.banner .img  img{
+    width: 100%;
 }
