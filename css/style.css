@@ -68,7 +68,8 @@ h5 {
     color: var(--title-color);
 
 }
-.round{
+
+.round {
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -114,7 +115,8 @@ header .container {
 
 }
 
-.sinin .nooutline:hover ,.btn-group .btn:hover{
+.sinin .nooutline:hover,
+.btn-group .btn:hover {
     color: var(--Blue2-color);
     border: none;
 }
@@ -138,38 +140,93 @@ header .container {
     gap: 50px;
 
 }
-.btn-group .btn{
+
+.btn-group .btn {
     padding: 15px 20px;
 }
-.btn-group .normal-btn:hover{
-   background-color: transparent;
+
+.btn-group .normal-btn:hover {
+    background-color: transparent;
     color: black;
 
-   
+
 }
 
 .avater {
     padding: 10px;
     display: flex;
 
-align-items: center;
+    align-items: center;
 }
-.avater .round{
+
+.avater .round {
     margin-left: -15px;
 }
+
 .banner .contein>* {
     margin-top: 30px;
 }
- .container .contein {
+
+.container .contein {
     width: 60%;
 }
- .container .contein ,p, h1{
+
+.container .contein,
+p,
+h1 {
     width: 60%;
-   
+
 }
-.banner .img  img {
+
+.banner .img img {
     width: 40%;
 }
-.banner .img  img{
+
+.banner .img img {
     width: 100%;
+}
+
+
+/* ...........sec3......... */
+
+.sec3 {
+    background-color: white;
+}
+
+/* ............sec4........... */
+i {
+    color: gold;
+}
+
+.courses {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.courses .sub {
+    align-items: center;
+    border-radius:20px;
+    text-align: center;
+    box-shadow: rgb(180, 179, 179) 1px 1px  100px;
+}
+.text .p{
+    text-align: center;
+    margin: auto;
+    font-weight: 600;
+}
+.text .s{
+  text-align: center;
+    margin: auto;
+    font-weight: 300;
+}
+
+
+
+.container .conteind{
+    text-align: center;
+    margin-left: 380px;
+    line-height: 60px;
 }
